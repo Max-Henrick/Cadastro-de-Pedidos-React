@@ -19,6 +19,7 @@ const App = () => {
       clientName: inputClientName.current.value
       })
   
+  // Função para avançar a Tela que consulta Pedidos
   setOrder([...order, orders])
   navigate('/order')
   }
@@ -44,8 +45,6 @@ const App = () => {
       </ContainerData>
 
     </Container>
-
-
 
   )
 }
